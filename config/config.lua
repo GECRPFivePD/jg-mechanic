@@ -255,7 +255,7 @@ Config.MechanicLocations = {
       driftTuning      = { enabled = true, requiresItem = true },
     },
     carLifts = { -- only usable by employees
-      vector4(-1412.6, -440.6, 35.91, 208.13)
+      vector4(-1411.27, -442.83, 35.7, 213.31)
     },
     shops = {
       {
@@ -277,7 +277,7 @@ Config.MechanicLocations = {
       },
       {
         name = "Advanced Upgrades",
-        coords = vector3(-1410.32, -439.07, 35.91),
+        coords = vector3(-1423.04, -456.37, 35.91),
         size = 2.0,
         usePed = false,
         pedModel = "s_m_m_lathandy_01",
