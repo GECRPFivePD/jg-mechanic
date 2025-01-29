@@ -7,7 +7,7 @@ Config.Notifications = "auto" -- or "default", "ox_lib", "ps-ui", "okokNotify", 
 Config.ProgressBar = "auto" -- or "ox-circle", "ox-bar", "qb"
 Config.SkillCheck = "auto" -- or "ox", "qb"
 Config.DrawText = "auto" -- or "jg-textui", "ox_lib", "okokTextUI", "ps-ui", "qb"
-Config.SocietyBanking = "auto" -- or "okokBanking", "fd_banking", "Renewed-Banking", "qb-banking", "qb-management", "esx_addonaccount"
+Config.SocietyBanking = "Renewed-Banking" -- or "okokBanking", "fd_banking", "Renewed-Banking", "qb-banking", "qb-management", "esx_addonaccount"
 
 -- Localisation
 Config.Locale = "en"
@@ -70,7 +70,7 @@ Config.TuningGiveInstalledItemBackOnRemoval = true
 -- Locations
 Config.UseCarLiftPrompt = "[E] Use car lift"
 Config.UseCarLiftKey = 38
-Config.CustomiseVehiclePrompt = "[E] Customise vehicle"
+Config.CustomiseVehiclePrompt = "[E] Customize vehicle"
 Config.CustomiseVehicleKey = 38
 
 -- Update vehicle props whenever they are changed [probably should not touch]
@@ -257,7 +257,7 @@ Config.MechanicLocations = {
     carLifts = { -- only usable by employees
       vector4(-1411.87, -441.83, 35.9, 212.31)
     },
-    shops = {
+    --[[shops = {
       {
         name = "Servicing Supplies",
         coords = vector3(-1414.45, -451.12, 35.91),
@@ -298,9 +298,9 @@ Config.MechanicLocations = {
         pedModel = "s_m_m_lathandy_01",
         marker = { id = 21, size = { x = 0.3, y = 0.3, z = 0.3 }, color = { r = 255, g = 255, b = 255, a = 120 }, bobUpAndDown = 0, faceCamera = 0, rotate = 1, drawOnEnts = 0 },
         slots = 10,
-        weight = 50000,
+        weight = 50000000000000000,
       },
-    }
+    }--]]
   }
 }
 
