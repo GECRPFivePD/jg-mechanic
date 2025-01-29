@@ -7,7 +7,7 @@ Config.Notifications = "auto" -- or "default", "ox_lib", "ps-ui", "okokNotify", 
 Config.ProgressBar = "auto" -- or "ox-circle", "ox-bar", "qb"
 Config.SkillCheck = "auto" -- or "ox", "qb"
 Config.DrawText = "auto" -- or "jg-textui", "ox_lib", "okokTextUI", "ps-ui", "qb"
-Config.SocietyBanking = "auto" -- or "okokBanking", "fd_banking", "Renewed-Banking", "qb-banking", "qb-management", "esx_addonaccount"
+Config.SocietyBanking = "Renewed-Banking" -- or "okokBanking", "fd_banking", "Renewed-Banking", "qb-banking", "qb-management", "esx_addonaccount"
 
 -- Localisation
 Config.Locale = "en"
@@ -217,7 +217,7 @@ Config.MechanicLocations = {
     commission = 10, -- %, 10 = 10%
     locations = {
       {
-        coords = vector3(-1423.92, -437.33, 35.83),
+        coords = vec3(-1423.23, -450.56, 35.91),
         size = 6.5,
         showBlip = true,
       },
