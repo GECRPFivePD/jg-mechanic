@@ -217,7 +217,7 @@ Config.MechanicLocations = {
     commission = 10, -- %, 10 = 10%
     locations = {
       {
-        coords = vector3(-1423.92, -437.33, 35.83),
+        coords = vec3(-1423.23, -450.56, 35.91),
         size = 6.5,
         showBlip = true,
       },
